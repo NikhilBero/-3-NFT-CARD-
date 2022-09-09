@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #74abc5;
+
+    }
+.container{
+   
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #002B5B;
+}
+.NFT-card{
+    
+    border-radius: 7px;
+     width: 230px;
+     
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ background-color: #2B4865;
+ box-shadow: 5px 5px 5px 5px #01244e;
+}
+.card-img{
+   width: 90%;
+border-radius: 5px;
+margin: 10px;
+
+}
+.card-info{
+display: flex;
+flex-direction: column;
+
+}
+.card-title{
+    font-size: 0.8rem;
+ margin:2px 5%;
+ color: white;
+}
+.card-description{
+    margin: 8px 5%;
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+.card-amount{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5% 5px 3%;
+}
+.card-price{
+display:flex;
+color: #1cd6ce;
+font-size: 0.8rem;
+}
+.card-price h5{
+    margin:1px;
+}
+.card-time{
+    display: flex;
+    font-size: 11px;
+}
+.card-time h6{
+    margin:1.3px;
+  
+}
+
+hr{
+    width: 90%;
+    margin:10px auto;
+    height: 0.3px;
+    background-color: #74abc5;
+border: 0;
+}
+.creator-info{
+    display: flex;
+margin: 5px 5% 10px 5%;
+}
+.creator-img{
+height: 1.6rem;
+}
+.creator-name{
+    display: flex;
+    font-size: 0.8rem;
+    margin: 5px 10px;
+}
+.creator-name span{
+    margin:  0 4px ;
+    font-size: 0.8rem;
+    color: white;
+}
